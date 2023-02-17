@@ -1,0 +1,15 @@
+Team Escalation
+
+Build a web page that allows you to assemble a team of players. It should be possible to:
+
+- Pick a player
+    - Inform the position of the player to be selected for the team.
+    - Enter the player's name.
+    - Enter the player's shirt number.
+    - Having a “Select” button that asks the user if they want to confirm that player's lineup and then enters the information in a list on the page.
+    - After the player is cast the text fields must be cleared.
+
+-Remove a player
+    - Enter the player's shirt number.
+    - Having a “Remove” button that asks the user if he wants to confirm the removal of that player and then deletes him from the list on the page.
+    - After the player is removed the text field must be cleared.

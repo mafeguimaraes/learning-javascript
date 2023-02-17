@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Escalation</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Team Escalation</h1>
+    <hr />
+
+    <h2>Select player</h2>
+    <p>
+      <label for="position">Position:</label>
+      <input type="text" id="position" />
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <label for="number">Number:</label>
+      <input type="number" id="number" />
+      <button onclick="selectPlayer()">Select Player</button>
+    </p>
+    <h2>Remove Player</h2>
+    <p>
+      <label for="numberToRemove">Número:</label>
+      <input type="number" id="numberToRemove" />
+      <button onclick="removePlayer()">Remove Player</button>
+    </p>
+
+    <h2>Team:</h2>
+    <!-- insert the new contacts here  -->
+    <ul id="team-list"></ul>
+  </body>
+</html>
