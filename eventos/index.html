@@ -1,0 +1,73 @@
+<!-- Aprendendo a usar eventos -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos no HTML</title>
+  </head>
+  <body>
+    <h1>Eventos no HTML</h1>
+    <!--
+
+       Using event in HTML
+
+    <div>
+      <label for="onMouseEnter">Entrada do Mouse:</label>
+      <input
+        type="text"
+        id="onMouseEnter"
+        onmouseenter="console.log('mouse entered')"
+      />
+    </div>
+    <br />
+    <div>
+      <label for="onChange">Mudança de Valor:</label>
+      <input
+        type="text"
+        id="onChange"
+        onchange="console.log('value changed')"
+      />
+    </div>
+    <br />
+    <div>
+      <label for="onFocus">Entrada de Foco:</label>
+      <input type="text" id="onFocus" onfocus="console.log('gained focus')" />
+    </div>
+    <br />
+    <div>
+      <label for="onBlur">Saída de Foco:</label>
+      <input type="text" id="onBlur" onblur="console.log('lost focus')" />
+    </div>
+    <br />
+    <button onclick="console.log('clicked')">Clique-me!</button> 
+-->
+
+    <!-- separate event from HTML -->
+    <div>
+      <label for="onMouseEnter">Entrada do Mouse:</label>
+      <input type="text" id="onMouseEnter" onmouseenter="mouseEnterEvent()" />
+    </div>
+    <br />
+    <div>
+      <label for="onChange">Mudança de Valor:</label>
+      <input type="text" id="onChange" onchange="changeEvent()" />
+    </div>
+    <br />
+    <div>
+      <label for="onFocus">Entrada de Foco:</label>
+      <input type="text" id="onFocus" onfocus="focusEvent()" />
+    </div>
+    <br />
+    <div>
+      <label for="onBlur">Saída de Foco:</label>
+      <input type="text" id="onBlur" onblur="blurEvent()" />
+    </div>
+    <br />
+    <button onclick="clickEvent()">Clique-me!</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
