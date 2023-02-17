@@ -1,5 +1,4 @@
 function selectPlayer() {
-  console.log("Entrou");
   const position = document.getElementById("position").value;
   const name = document.getElementById("name").value;
   const number = document.getElementById("number").value;
@@ -23,7 +22,7 @@ function removePlayer() {
   const playerToRemove = document.getElementById("player-" + number);
 
   const confirmation = confirm(
-    "Remover o jogador " + playerToRemove.innerText + "?"
+    "Remove player " + playerToRemove.innerText + "?"
   );
 
   if (confirmation) {
