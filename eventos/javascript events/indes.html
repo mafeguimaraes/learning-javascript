@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Events in JavaScript</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Using Events in JavaScript</h1>
+    <hr />
+
+    <h2>Register!</h2>
+    <section>
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <br />
+      <label for="passwordConfirmation">Password Confirmation:</label>
+      <input
+        type="password"
+        name="passwordConfirmation"
+        id="passwordConfirmation"
+      />
+      <br />
+      <br />
+      <button id="register-button">Register</button>
+      <button onclick="removeEvent()">Remover Event Listener</button>
+    </section>
+  </body>
+</html>
